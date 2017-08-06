@@ -6,8 +6,13 @@ public class MyDrawing05 extends RecursiveDrawing {
 
 	public void draw(Canvas canvas, int step, double time) {
 		//modify the code here to make your own drawing
-		  
-		canvas.line(0.0, 0.0, 0.0, 10.0);	
+		for (int i = 0; i <10; i++){
+			canvas.line(0.0, 0.0, 50.0, 0.0);
+			canvas.scale(0.9);
+			canvas.translate(2,0);
+			canvas.rotate(10);
+		}
+
 	}
 	
 	

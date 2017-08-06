@@ -1,4 +1,7 @@
-import java.awt.event.ActionEvent;
+/**
+ * Simple draw on on existing canvas provided by Eric
+ * @author Honggu Lin
+ */
 
 
 public class MyDrawing02 extends RecursiveDrawing {
@@ -6,8 +9,9 @@ public class MyDrawing02 extends RecursiveDrawing {
 
 	public void draw(Canvas canvas, int step, double time) {
 		//modify the code here to make your own drawing
-		  
-		canvas.line(0.0, 0.0, 0.0, 10.0);	
+		for(int i = 0; i<10; i++){
+			canvas.line(0.0, 0.0, 0.0, 10.0);
+			canvas.rotate(36);}
 	}
 	
 	
